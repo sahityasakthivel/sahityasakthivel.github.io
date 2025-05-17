@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3204ed6.css",
-    "main.js": "/static/js/main.57720e5e.js",
+    "main.css": "/static/css/main.329f413a.css",
+    "main.js": "/static/js/main.b2e68ebe.js",
     "static/js/453.ca3a84db.chunk.js": "/static/js/453.ca3a84db.chunk.js",
+    "static/media/profile.JPG": "/static/media/profile.2689485e76ee4011bfe0.JPG",
     "static/media/simulation.png": "/static/media/simulation.15020751bcbe7e3b65ab.png",
-    "static/media/rwba.png": "/static/media/rwba.672645d0f5d5e1532f18.png",
-    "static/media/cinema.png": "/static/media/cinema.d066fe41a24f3e0faa04.png",
     "static/media/tfl.png": "/static/media/tfl.fea6eec53fc3ee43ee1d.png",
     "static/media/fun.png": "/static/media/fun.9e950dfcac52f2df914e.png",
-    "static/media/CV.pdf": "/static/media/CV.042c70b6acfa9bf65e3a.pdf",
+    "static/media/personalised_feedback_framework.png": "/static/media/personalised_feedback_framework.66658469d15e029422d2.png",
+    "static/media/CV.pdf": "/static/media/CV.37d35377d78e537b6cd1.pdf",
     "static/media/gfc.png": "/static/media/gfc.40ad7fa88f20c32877a4.png",
-    "static/media/Bank_of_America_Corporation_Logo.jpeg": "/static/media/Bank_of_America_Corporation_Logo.bbad735fbe48f1d348f8.jpeg",
-    "static/media/kcl-tech.jpeg": "/static/media/kcl-tech.6a96f44fb00f1f45a163.jpeg",
-    "static/media/bloomberg.png": "/static/media/bloomberg.e79af273c728b1f1c85b.png",
+    "static/media/kcl.png": "/static/media/kcl.8c7f89ce4ccc02da4c57.png",
     "static/media/jp-morgan.png": "/static/media/jp-morgan.59d0973001fafe3a3bb7.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Bank_of_America_Corporation_Logo.png": "/static/media/Bank_of_America_Corporation_Logo.7133a149e05f99ca4beb.png",
+    "static/media/go-back.svg": "/static/media/go-back.978cb0a921670d75a0fbe903760bef6d.svg",
     "index.html": "/index.html",
-    "static/media/arrow_icon.svg": "/static/media/arrow_icon.866a8d83b9723eed11e169d98d66ebc7.svg",
-    "main.f3204ed6.css.map": "/static/css/main.f3204ed6.css.map",
-    "main.57720e5e.js.map": "/static/js/main.57720e5e.js.map",
+    "main.329f413a.css.map": "/static/css/main.329f413a.css.map",
+    "main.b2e68ebe.js.map": "/static/js/main.b2e68ebe.js.map",
     "453.ca3a84db.chunk.js.map": "/static/js/453.ca3a84db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3204ed6.css",
-    "static/js/main.57720e5e.js"
+    "static/css/main.329f413a.css",
+    "static/js/main.b2e68ebe.js"
   ]
 }
