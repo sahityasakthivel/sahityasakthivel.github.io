@@ -21,7 +21,7 @@ function Experience(){
        </div>
         <Timeline position="alternate">
             {Experiences_Data.map((experience, index)=>{
-                return <TimelineItem>
+                return <TimelineItem  className='timeline-item'>
             <TimelineSeparator>
               <TimelineConnector />
               <NavLink className="experience-navlink" to ={`/experiences/${experience.s_no}` }>
