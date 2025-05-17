@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './pages/Home/home';
-import {Route, Routes, BrowserRouter} from "react-router-dom";
+import {Route, Routes, HashRouter} from "react-router-dom";
 import Experience from './pages/Experience/experience';
 import Experiences from './pages/Experiences/experiences';
 import Navbar from './components/Navbar/navbar';
@@ -10,7 +10,7 @@ import Footer from './components/Footer/footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
@@ -20,7 +20,7 @@ function App() {
         <Route path="/projects/:id" element={<Projects />}/>
       </Routes>
       <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
