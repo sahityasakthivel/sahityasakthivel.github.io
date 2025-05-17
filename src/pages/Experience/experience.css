@@ -1,153 +1,41 @@
-.experiences{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    margin: 0px 150px; 
+.experience{
+    min-height: 100vh;
+    border-radius: 8px;
+    border: 20px solid #9bdae3;
  }
  
- .experiences-title{
+ .experience-title{
     padding: 20px ;
-     position: relative;
+    color: black;
+    text-align: center;
+ }
+ .experience-navlink{
+   color: #000; /* Black text */
+   font-weight: bold;
  }
  
- .experiences-title h1{
-     padding: 0px 10px;
-     font-size: 50px;
-     font-weight: 600;
-     text-align: center;
+ .experience-title h1{
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: monospace ;
+    font-style:oblique;
+    padding-bottom: 3%;
+    text-underline-offset: 0.3em;
+    text-decoration: underline rgb(220, 240, 247) 5px;
  }
- 
- .experiences-title p{
-    padding: 10px 10px;
+
+ .experience-title p{
     font-size: 20px;
     font-weight: 600;
-    /* border: solid; */
 }
-
- .experiences-title img{
-     position: absolute;
-     bottom: 0;
-     right: 0;
-     z-index: -1;
- }
  
- .experiences-format{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     gap: 20px;
-     padding: 10px;
-     border-radius: 10px;
-     border: 2px solid white;
-     transition: 0.4s;
-     cursor: pointer;
-     background-color: rgb(159, 118, 164);
- }
-
- .experiences-format:hover{
-    border: crimson;
-    background-color: rgb(189, 123, 197);
-    transition: 0.3s;
- }
- 
- .experiences-container{
-     display: grid;
-     grid-template-columns: repeat(3, minmax(0, 1fr));
-     gap: 30px;
-     margin-bottom: 80px;
-    text-align: center;
-    
-     
-     
- }
- 
- .experiences-format h3{
-     font-size: 24px;
-     font-weight: 600;
- }
- 
- .experiences-format h2{
-     font-size: 36px;
-     font-weight: 800;
-     background: rgb(255, 255, 255);
-     background-clip: text;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
- }
- 
- .experiences-format p{
-     color: rgb(255, 255, 255);
-     font-size: 22px;
-     line-height: 40px;
-     max-width: 100%;
-     height: auto;
-     width: auto\9;
-
-     
- }
- 
- .experiences-format img{
-     max-width: 250px;
-     max-height: 150px;
-     border: darkblue;
-     display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-     
- }
- .experiences-readmore{
-     display: flex;
-     gap: 20px;
-     align-items: center;
-     margin-top: 20px;
- }
- 
- 
- 
- .experiences-details{
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    
- }
-
- .experiences-format img {
-    max-width: 250px;
-     max-height: 150px;
-    align-items: center;
+ .timelineOppositeContent{
+    color: black;
+    font-family: monospace ;
+    font-style:oblique;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-    padding: 10px;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-    
- }
-
- .experiences-details li {
-    padding: 10px;
-    font-size: 22px;
- }
- 
 
 
- .experiences-format button{
-background-color:  rgb(159, 118, 164);
-  border: solid;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 8px;
- }
-
- .experiences-format button:hover{
-    background-color:  rgb(193, 115, 203);
  }

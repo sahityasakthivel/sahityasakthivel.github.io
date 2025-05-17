@@ -1,21 +1,19 @@
 import React from 'react'
 import './footer.css'
-
-import cvlogo from "../../assets/cv.jpeg"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFile} from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
+import GithubIcon from '@mui/icons-material/GitHub';
+import LinkedinIcon from '@mui/icons-material/LinkedIn';
+import ResumeIcon from '@mui/icons-material/Description';
 
 import cv from "../../assets/CV.pdf"
 const Footer = () => {
   return (
     <footer className='footer'>
 
-        <div ><a href = {cv} target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faFile} size='3x' /></a></div>
-        <div> <a href = "https://github.com/sahityasakthivel?tab=repositories" target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faGithub} size='3x'/></a></div>
-        <div> <a href = "https://www.linkedin.com/in/sahitya-sakthivel-08299a213/" target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i>  <FontAwesomeIcon icon={faLinkedin} size='3x'/></a></div>
-        
+      <ul className='nav-menu'>
+        <li><a href = {cv} target= "_blank"><i class="fa-regular fa-file" href="./CV.pdf" ></i> <ResumeIcon className='icon'/></a></li>
+        <li> <a href = "https://github.com/sahityasakthivel?tab=repositories" target= "_blank"><i class="fa-regular fa-file"></i>  <GithubIcon className='icon'/></a></li>
+        <li> <a href = "https://www.linkedin.com/in/sahitya-sakthivel-08299a213/" target= "_blank"><i class="fa-regular fa-file"></i>  <LinkedinIcon className='icon'/></a></li>
+      </ul>
     </footer>
   );
 }

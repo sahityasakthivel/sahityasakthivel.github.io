@@ -1,18 +1,48 @@
-.home{
-    width: 75%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.home-container{
+    min-height: 100vh;
+    border-radius: 8px;
+    border: 20px solid #9bdae3;
+}
+.home img{
+    width: 30%;
+    float: right;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
-.home h1{
+
+.home{
+   margin: 0px 150px; 
+   font-family: 'Courier New', Courier, monospace;
+   font-style: italic;
+   padding-bottom: 2%;
+}
+
+.home-container h1{
+    text-underline-offset: 0.3em;
+    text-decoration: underline rgb(220, 240, 247) 5px;
     text-align: center;
-    font-size: 100px;
-    padding: 15px;
-    
+    font-family: monospace ;
+    font-style:oblique;
+    font-size: 60px;
+    padding: 30px;
+    gap: 20px;
+    color: black;
 }
 
 .home p{
-    font-size: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+
+.nav-link {
+    color: #9bdae3; 
+    font-weight: 550;
+    text-decoration: none;
+}
+  
+.nav-link:hover {
+    color: #9bdae3; 
+    font-weight: 650;
 }

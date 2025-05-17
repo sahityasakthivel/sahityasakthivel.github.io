@@ -1,4 +1,9 @@
-.projects{
+.project-outer{
+   border-radius: 8px;
+   border: 20px solid #9bdae3;
+}
+
+.project{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,149 +12,127 @@
     margin: 0px 150px; 
  }
  
- .projects-title{
+ .project-title{
      position: relative;
      padding: 20px ;
+     color: black;
  }
  
- .projects-title h1{
+ .project-title h1{
      padding: 0px 30px;
      font-size: 50px;
      font-weight: 600;
      text-align: center;
+     font-family: monospace ;
+     font-style:oblique;
+     padding-bottom: 5%;
+     text-underline-offset: 0.3em;
+     text-decoration: underline rgb(220, 240, 247) 5px;
+
  }
  
- .projects-title p{
+ .project-title p{
     padding: 10px 30px;
     font-size: 20px;
     font-weight: 600;
-    /* border: solid; */
 }
 
- .projects-title img{
-     position: absolute;
-     bottom: 0;
-     right: 0;
-     z-index: -1;
- }
- 
- .projects-format{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
+ .project-format{
      gap: 20px;
      padding: 10px;
      border-radius: 10px;
-     border: 2px solid white;
+     border: 2px solid rgb(220, 240, 247);
      transition: 0.4s;
      cursor: pointer;
-     background-color: rgb(159, 118, 164);
+     display: flex;
+     justify-content: space-between; 
+     align-items: center;         
  }
-
- .projects-format:hover{
-    /* border: crimson; */
-    background-color: rgb(189, 123, 197);
+ 
+ .project-format:hover{
+    background-color: rgb(220, 240, 247);
     transition: 0.3s;
  }
  
- .projects-container{
+ .project-container{
      display: grid;
-     grid-template-columns: repeat(3, minmax(0, 1fr));
-     gap: 30px;
+     gap: 90px;
      margin-bottom: 80px;
-    text-align: center;
+     text-align: center;
     
-     
-     
  }
  
- .projects-format h3{
-     font-size: 24px;
+
+ .project-format h3{
+     font-size: 29px;
+     font-family: monospace ;
      font-weight: 600;
+     color: black;
+     column-gap: 20px;
+     gap: 30px;
+     padding: 2.5%;
+
  }
  
- .projects-format h2{
-     font-size: 36px;
-     font-weight: 800;
-     background: rgb(255, 255, 255);
-     background-clip: text;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
- }
- 
- .projects-format p{
-     color: rgb(255, 255, 255);
-     font-size: 22px;
-     line-height: 40px;
-     max-width: 100%;
+ .project-format p{
+    align-self: flex-end;
+    font-family: monospace ;
+    font-style: oblique;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 100%;
     height: auto;
     width: auto\9;
-     
- }
+    gap: 30px;
+    column-gap: 20px;
+    padding-bottom: 2.5%;
  
- .projects-format img{
-     max-width: 250px;
-     max-height: 150px;
-     border: darkblue;
-     display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-     
- }
- .projects-readmore{
-     display: flex;
-     gap: 20px;
-     align-items: center;
-     margin-top: 20px;
- }
- 
- 
- 
- .projects-details{
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    
  }
 
- .projects-format img {
-    /* max-width: 250px;
-     max-height: 150px; */
-     max-width: 100%;
-    height: auto;
-    width: auto\9;
-     height: auto;
-     width: auto;
-    align-items: center;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-    padding: 10px;
-
-    
+ .project-format-img {
+   display: flex;
+   justify-content: center;    
+   align-items: center;        
+   flex: 1; 
  }
 
- .projects-details li {
-    padding: 10px;
-    font-size: 22px;
+ .project-format-img img{
+   min-width: 400px;
+   max-width: 100%;             
+   height: auto; 
+   justify-content: center;
+   align-items: center; 
+   padding: 20px;     
  }
- 
 
-
- .projects-format button{
-background-color:  rgb(159, 118, 164);
-  border: solid;
-  color: white;
+ .project-format button{
+  background-color: rgb(220, 240, 247);
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 8px;
+  border-color: aliceblue;
+  float: right;
+  color: blue;
  }
 
- .projects-format button:hover{
-    background-color:  rgb(193, 115, 203);
+ .buttons-logo img{
+   max-width: 100px;
+   max-height: 50px ;  
+   float: left;
+   border-radius: 8px;
+   border: 1px solid transparent;
+   padding-right: 10px;
  }
+
+  .project-navlink{
+    color: #000; 
+    font-weight: bold;
+  }
+
+  .project-navlink button{
+    color: black
+  }

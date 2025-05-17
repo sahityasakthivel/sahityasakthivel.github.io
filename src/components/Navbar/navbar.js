@@ -1,25 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './navbar.css'
 import { NavLink } from 'react-router-dom'
 
-
+import ComputerIcon from '@mui/icons-material/Computer';
+import WorkIcon from '@mui/icons-material/Work';
+import HomeIcon from '@mui/icons-material/Home';
 const Navbar = () => {
-  const [menu, setMenu] = useState('home')
   return (
     <div className='navbar'>
-
         <ul className='nav-menu'>
             <li>
-              <NavLink to ="/">Home</NavLink>
+              <NavLink to ="/"><HomeIcon className='icon'/></NavLink>
             </li>
             <li>
-              <NavLink to ="/experience">Experiences</NavLink>
+              <NavLink to ="/experience"><WorkIcon className='icon'/></NavLink>
             </li>
             <li>
-              <NavLink to ="/project">Projects</NavLink>
-            </li>
-            <li>
-              <NavLink to ="/education">Education</NavLink>
+              <NavLink to ="/project"><ComputerIcon className='icon'/></NavLink>
             </li>
         </ul>
     </div>

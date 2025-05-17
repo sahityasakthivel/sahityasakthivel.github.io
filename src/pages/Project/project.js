@@ -1,42 +1,40 @@
 import React from 'react'
 import './project.css'
 import Projects_Data from '../../assets/projects_data'
-import arrow_icon from "../../assets/arrow_icon.svg"
-import { useHistory } from "react-router-dom";
-import { Link } from 'react-router-dom';
-import Popup from '../../components/Popup/Popup';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom'
+
 function Project(){
-    const[buttonPopup, setButtonPopup] = useState(false);
-    const [seletcedData, setSelectedData] = useState();
 
     return (
-        <div className='projects'>
-            <div className='projects-title'>
-                <h1> My Projects</h1>
-                <p> Press view more to learn more about my projects!</p>
-            </div>
-            <div className='projects-container'>
-            {Projects_Data.map((project, index)=>{
-                return <div key={index} className='projects-format'>
-                    
-                    <img src={project.s_img} alt=''/>
-                    <h2>{project.s_name}</h2>
-                    <p>{project.s_desc}</p>
-
-                    
-                    <div>
-                    <button  onClick={()=> {setSelectedData(project); setButtonPopup(true)}}> View More </button>
-                    {/* {seletcedData.s_name} */}
-                    {buttonPopup && <Popup experience={seletcedData} onClose={setButtonPopup}>
-                    
-                        
-                    </Popup>}
-                    
-        </div>
-                    
+        <div className='project-outer'>
+            <div className='project'>
+                <div className='project-title'>
+                    <h1> PROJECTS</h1>
+                    <p> Here you will find some of the personal projects that I created</p>
+                </div>
+                <div className='project-container'>
+                    {Projects_Data.map((project, index)=>{
+                    return <div key={index} className='project-format'>
+                    <div className='project-format-img'>
+                        <img src={project.s_img} alt=''/>
                     </div>
-            })}
+                    <div className='project-format-dsc'>
+                        <h3>{project.s_name}</h3>
+                        <p>{project.s_desc}</p>
+                        <div className='buttons'>
+                            <div className='buttons-logo'>
+                                {project.s_lang_icons.map(val => (  
+                                <img src={val} alt=''/>)) } 
+                            </div>
+                            <NavLink className="project-navlink" to ={`/projects/${project.s_no}` }>
+                                <button className='project-navlink-button'> View More</button> </NavLink>
+                        </div>
+                    </div>
+                 
+                    
+                    </div>})}
+                </div>
             </div>
         </div>
       )

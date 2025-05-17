@@ -11,7 +11,7 @@ const Educations_Data = [
         s_img: s5, 
         // s_readmore: ["Worked in a team of 5 to create a productivity tracking application.", "Utilised agile methodology to complete tasks.", "Utilised various programming skills to work on the frontend and backend of the application." ],
         s_awards: [["Florence Hughes Exhibition Award","Awarded to the student in the Natural, Mathematical and Engineering Sciences Faculty, who has achieved the highest standard of work in the second year of her course."]],
-        s_year:[["First Year", "85.9%",[["Elementary Logic and Applications","95%"], ["Programming Practice and Applications", "92%"], ["Data Structures", "88%"]]], ["Second Year", "88%",[["Foundations of Computing II","97.5%"], ["Practical Experience and Programming", "95%"], ["Introduction to Artificial Intelligence", "94%"]]], ["Third Year", "85%",[["Compilers and Formal Language","97%"], ["Information Security", "91%"], ["Optimisation Methods", "90%"]]]]
+        s_year:[["Overall", "87%", []],["First Year", "85.9%",[["Elementary Logic and Applications","95%"], ["Programming Practice and Applications", "92%"], ["Data Structures", "88%"]]], ["Second Year", "88%",[["Foundations of Computing II","97.5%"], ["Practical Experience and Programming", "95%"], ["Introduction to Artificial Intelligence", "94%"]]], ["Third Year", "84.5%",[["Compilers and Formal Language","97%"], ["Information Security", "91%"], ["Optimisation Methods", "90%"]]]]
     },
 
     {

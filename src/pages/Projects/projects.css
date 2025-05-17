@@ -1,0 +1,98 @@
+.projects-individual{
+  border-radius: 8px;
+   border: 20px solid #9bdae3;
+}
+.projects-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   margin: 0px 150px; 
+}
+
+.projects-title-individual{
+    position: relative;
+    padding: 20px ;
+    color: black;
+    padding-bottom: 40px;
+    text-align: center;
+}
+ 
+.projects-title-individual h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: monospace ;
+    font-style:oblique;
+    text-underline-offset: 0.3em;
+    text-decoration: underline rgb(220, 240, 247) 5px;
+    padding: 40px;
+    display: inline;
+}
+.projects-navlink-button{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  top: 20px;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: rgb(220, 240, 247);
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  border-color: aliceblue;
+  color: blue;
+  width: 5%;
+  height: auto;
+}
+
+.projects-navlink-button img{
+  max-width: 50px;
+  height: 30px;
+}
+
+.projects-container img{
+  min-width: 50%;
+  max-width: 60%;             
+  height: auto; 
+  justify-content: center; 
+  align-items: center; 
+  border-color: black; 
+  display: block;
+  float: left;
+}
+
+.projects-format-individual-dsc p{
+  color: black;
+  padding-bottom: 2%;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: black;
+  column-gap: 20px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.projects-functionality {
+  background-color: #9bdae3;
+  border: 2px solid black;
+  padding: 2%;
+  gap: 20%;
+  border: 2px solid rgb(220, 240, 247);
+  border-radius: 10px;
+  background-color: rgb(220, 240, 247);
+}
+
+.projects-functionality li{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: black;
+  padding-bottom: 2%;
+  gap: 60px;
+}
