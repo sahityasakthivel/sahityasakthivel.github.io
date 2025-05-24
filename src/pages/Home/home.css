@@ -12,8 +12,8 @@
 
 
 .home{
-   margin: 0px 150px; 
-   font-family: 'Courier New', Courier, monospace;
+    margin: 0 clamp(20px, 10vw, 150px);
+    font-family: 'Courier New', Courier, monospace;
    font-style: italic;
    padding-bottom: 2%;
 }
@@ -24,14 +24,14 @@
     text-align: center;
     font-family: monospace ;
     font-style:oblique;
-    font-size: 60px;
+    font-size: clamp(32px, 4vw, 60px);
     padding: 30px;
     gap: 20px;
     color: black;
 }
 
 .home p{
-    font-size: 20px;
+    font-size: clamp(10px, 2vw, 20px);
     color: black;
 }
 

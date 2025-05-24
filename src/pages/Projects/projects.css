@@ -8,8 +8,8 @@
    align-items: center;
    justify-content: center;
    gap: 10px;
-   margin: 0px 150px; 
-}
+   margin: 0 clamp(20px, 10vw, 150px);
+  }
 
 .projects-title-individual{
     position: relative;
@@ -20,7 +20,7 @@
 }
  
 .projects-title-individual h1{
-    font-size: 50px;
+    font-size: clamp(10px, 2vw, 50px);
     font-weight: 600;
     text-align: center;
     font-family: monospace ;
@@ -30,6 +30,14 @@
     padding: 40px;
     display: inline;
 }
+
+.projects-navlink{
+  background: transparent;
+  border: none;
+  color: transparent;
+  text-decoration: none;
+}
+
 .projects-navlink-button{
   display: inline-block;
   background-color: black;
@@ -45,14 +53,19 @@
   font-size: 16px;
   border-radius: 8px;
   border-color: aliceblue;
-  color: blue;
+  color: aliceblue;
   width: 5%;
-  height: auto;
+  max-width: auto;
+  min-height: 5%;
+  max-height: 20%;
 }
 
 .projects-navlink-button img{
-  max-width: 50px;
   height: 30px;
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin: 0 auto; 
 }
 
 .projects-container img{
@@ -69,7 +82,7 @@
 .projects-format-individual-dsc p{
   color: black;
   padding-bottom: 2%;
-  font-size: 20px;
+  font-size: clamp(10px, 2vw, 20px);
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   color: black;
@@ -95,4 +108,5 @@
   color: black;
   padding-bottom: 2%;
   gap: 60px;
+  font-size: clamp(10px, 2vw, 20px);
 }

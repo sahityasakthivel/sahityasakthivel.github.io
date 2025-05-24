@@ -26,33 +26,48 @@ function Experience(){
               <TimelineConnector />
               <NavLink className="experience-navlink" to ={`/experiences/${experience.s_no}` }>
               <IconButton>
-              <TimelineDot sx={{
-              width: 64, 
-              height: 64,
+              <TimelineDot 
+              sx={{
+
+              width: 'clamp(20px, 10vw, 64px)',   
+    height: 'clamp(20px, 10vw, 64px)',
               backgroundColor: 'white',
               padding: 0, 
               overflow: 'hidden', 
-            }}>
+            }}
+            >
             {  <img src={experience.s_img} alt="icon"
             style={{
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover', 
                 borderRadius: '50%', 
-              }}></img> }
+              }}
+              ></img> }
               </TimelineDot>
               </IconButton>
               </NavLink>
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent className='timelineOppositeContent' sx={{ py: '32px', px: 2 , m: 'auto 0'}} color="black">
-            <Typography  >
+            <TimelineContent className='timelineOppositeContent' sx={{
+               py: '32px', px: 2 , m: 'auto 0'
+               }} color="black">
+            <Typography  sx={{
+                fontSize: 'clamp(5px, 1vw, 16px)',
+
+              }} >
                 {experience.s_time}
               </Typography>
-              <Typography variant="h6" component="span" >
+              <Typography 
+              
+              sx={{
+                fontSize: 'clamp(8px, 2vw, 20px)', // min 12px, scales with viewport, max 20px
+              }}>
                 {experience.s_role}
               </Typography>
-              <Typography >{experience.s_name}</Typography>
+              <Typography sx={{
+                fontSize: 'clamp(5px, 1vw, 16px)'
+              }} >{experience.s_name}</Typography>
             </TimelineContent>
           </TimelineItem>})}
         </Timeline>

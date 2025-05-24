@@ -16,7 +16,7 @@
  
  .experience-title h1{
     padding: 10px;
-    font-size: 50px;
+    font-size: clamp(14px, 4vw, 56px);
     font-weight: 600;
     text-align: center;
     font-family: monospace ;
@@ -27,8 +27,8 @@
  }
 
  .experience-title p{
-    font-size: 20px;
-    font-weight: 600;
+   font-size: clamp(14px, 4vw, 20px);
+   font-weight: 600;
 }
  
  .timelineOppositeContent{
