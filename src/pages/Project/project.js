@@ -1,7 +1,6 @@
 import React from 'react'
 import './project.css'
 import Projects_Data from '../../assets/projects_data'
-import { useState } from 'react';
 import { NavLink } from 'react-router-dom'
 
 function Project(){

@@ -1,10 +1,10 @@
 import React from 'react'
 import './navbar.css'
 import { NavLink } from 'react-router-dom'
-
 import ComputerIcon from '@mui/icons-material/Computer';
 import WorkIcon from '@mui/icons-material/Work';
 import HomeIcon from '@mui/icons-material/Home';
+
 const Navbar = () => {
   return (
     <div className='navbar'>

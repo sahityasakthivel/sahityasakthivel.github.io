@@ -28,7 +28,6 @@ const Projects_Data = [
             "🔁 Reset or repeat simulations with different parameters to compare outcomes and refine hypotheses.",
             "🧬 Model species-specific traits, like reproduction rate, hunting efficiency, or resistance to infection."
         ]
-       
     },
     
     {
@@ -63,8 +62,6 @@ const Projects_Data = [
             "👥 Compete with friends or family to reach savings or budgeting goals and stay motivated together.",
             "📰 Receive personalized spending newsletters with tips and category summaries"
         ]
-
-        
     },
 
     {
@@ -82,7 +79,6 @@ const Projects_Data = [
             "🌍 Access data for all Underground lines and stations to get a comprehensive view of the Tube system's crowd levels.",
             "⏰ Plan your journey based on crowd trends, with data showing the best times to travel for a more comfortable ride."
         ]
-    
     },
 
     {
@@ -100,11 +96,7 @@ const Projects_Data = [
             "⚙️ Compiler: Takes the AST and generates highly optimized machine code using LLVM, improving execution speed and platform compatibility.",
             "💡 Statically-typed language support ensures early error detection and type safety during compilation."
         ]
-    
-    },
-
-   
-
+    }
 ] 
  
 export default Projects_Data;

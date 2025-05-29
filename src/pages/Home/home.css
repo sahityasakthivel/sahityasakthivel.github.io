@@ -10,12 +10,11 @@
     padding-right: 7%;
 }
 
-
 .home{
     margin: 0 clamp(20px, 10vw, 150px);
     font-family: 'Courier New', Courier, monospace;
-   font-style: italic;
-   padding-bottom: 2%;
+    font-style: italic;
+    padding-bottom: 2%;
 }
 
 .home-container h1{
@@ -34,7 +33,6 @@
     font-size: clamp(10px, 2vw, 20px);
     color: black;
 }
-
 
 .nav-link {
     color: #9bdae3; 

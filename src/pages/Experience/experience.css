@@ -1,44 +1,44 @@
 .experience{
-    min-height: 100vh;
-    border-radius: 8px;
-    border: 20px solid #9bdae3;
- }
+   min-height: 100vh;
+   border-radius: 8px;
+   border: 20px solid #9bdae3;
+}
  
- .experience-title{
-    padding: 20px ;
-    color: black;
-    text-align: center;
- }
- .experience-navlink{
+.experience-title{
+   padding: 20px ;
+   color: black;
+   text-align: center;
+}
+.experience-navlink{
    color: #000; /* Black text */
    font-weight: bold;
- }
+}
  
- .experience-title h1{
-    padding: 10px;
-    font-size: clamp(14px, 4vw, 56px);
-    font-weight: 600;
-    text-align: center;
-    font-family: monospace ;
-    font-style:oblique;
-    padding-bottom: 3%;
-    text-underline-offset: 0.3em;
-    text-decoration: underline rgb(220, 240, 247) 5px;
- }
+.experience-title h1{
+   padding: 10px;
+   font-size: clamp(14px, 4vw, 56px);
+   font-weight: 600;
+   text-align: center;
+   font-family: monospace ;
+   font-style:oblique;
+   padding-bottom: 3%;
+   text-underline-offset: 0.3em;
+   text-decoration: underline rgb(220, 240, 247) 5px;
+}
 
- .experience-title p{
+.experience-title p{
    font-size: clamp(14px, 4vw, 20px);
    font-weight: 600;
 }
  
- .timelineOppositeContent{
-    color: black;
-    font-family: monospace ;
-    font-style:oblique;
-    display: block;
- }
+.timelineOppositeContent{
+   color: black;
+   font-family: monospace ;
+   font-style:oblique;
+   display: block;
+}
 
- .timeline-item {
+.timeline-item {
    width: 85%;
    margin: 0 auto;
- }
+}

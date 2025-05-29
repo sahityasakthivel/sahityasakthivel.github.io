@@ -18,6 +18,8 @@ function App() {
         <Route path="/experiences/:id" element={< Experiences />}/>
         <Route path="/project/" element={<Project />}/>
         <Route path="/projects/:id" element={<Projects />}/>
+        <Route path="*" element={<Navigate to="/" replace />} />
+
       </Routes>
       <Footer/>
     </HashRouter>

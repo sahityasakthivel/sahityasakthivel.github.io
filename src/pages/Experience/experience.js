@@ -1,7 +1,6 @@
 import React from 'react'
 import './experience.css'
 import { NavLink } from 'react-router-dom'
-
 import Experiences_Data from '../../assets/experiences_data'
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -28,9 +27,8 @@ function Experience(){
               <IconButton>
               <TimelineDot 
               sx={{
-
               width: 'clamp(20px, 10vw, 64px)',   
-    height: 'clamp(20px, 10vw, 64px)',
+              height: 'clamp(20px, 10vw, 64px)',
               backgroundColor: 'white',
               padding: 0, 
               overflow: 'hidden', 

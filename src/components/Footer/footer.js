@@ -3,8 +3,8 @@ import './footer.css'
 import GithubIcon from '@mui/icons-material/GitHub';
 import LinkedinIcon from '@mui/icons-material/LinkedIn';
 import ResumeIcon from '@mui/icons-material/Description';
-
 import cv from "../../assets/CV.pdf"
+
 const Footer = () => {
   return (
     <footer className='footer'>
