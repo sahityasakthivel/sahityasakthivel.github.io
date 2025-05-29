@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.54729fe5.css",
-    "main.js": "/static/js/main.4c36066d.js",
+    "main.css": "/static/css/main.3be1cf08.css",
+    "main.js": "/static/js/main.8ad60c0d.js",
     "static/js/453.ca3a84db.chunk.js": "/static/js/453.ca3a84db.chunk.js",
     "static/media/profile.JPG": "/static/media/profile.2689485e76ee4011bfe0.JPG",
     "static/media/simulation.png": "/static/media/simulation.15020751bcbe7e3b65ab.png",
     "static/media/tfl.png": "/static/media/tfl.fea6eec53fc3ee43ee1d.png",
     "static/media/fun.png": "/static/media/fun.9e950dfcac52f2df914e.png",
     "static/media/personalised_feedback_framework.png": "/static/media/personalised_feedback_framework.66658469d15e029422d2.png",
-    "static/media/CV.pdf": "/static/media/CV.1a81401fc8c068171377.pdf",
+    "static/media/CV.pdf": "/static/media/CV.4ebd36899bcd320835ca.pdf",
     "static/media/gfc.png": "/static/media/gfc.40ad7fa88f20c32877a4.png",
     "static/media/kcl.png": "/static/media/kcl.8c7f89ce4ccc02da4c57.png",
     "static/media/jp-morgan.png": "/static/media/jp-morgan.59d0973001fafe3a3bb7.png",
     "static/media/Bank_of_America_Corporation_Logo.png": "/static/media/Bank_of_America_Corporation_Logo.7133a149e05f99ca4beb.png",
     "index.html": "/index.html",
     "static/media/go-back.svg": "/static/media/go-back.978cb0a921670d75a0fbe903760bef6d.svg",
-    "main.54729fe5.css.map": "/static/css/main.54729fe5.css.map",
-    "main.4c36066d.js.map": "/static/js/main.4c36066d.js.map",
+    "main.3be1cf08.css.map": "/static/css/main.3be1cf08.css.map",
+    "main.8ad60c0d.js.map": "/static/js/main.8ad60c0d.js.map",
     "453.ca3a84db.chunk.js.map": "/static/js/453.ca3a84db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54729fe5.css",
-    "static/js/main.4c36066d.js"
+    "static/css/main.3be1cf08.css",
+    "static/js/main.8ad60c0d.js"
   ]
 }
