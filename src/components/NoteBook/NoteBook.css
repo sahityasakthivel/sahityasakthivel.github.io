@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.experience-bullet-points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    height: 45%;
+}
+
+.experience-bullet-points img{
+    width: 45%;
+    height: 45%;
+    align-items: center;
+}
+
+.page {
+  flex: 1;
+  color: black;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 18px;
+  line-height: 25px; 
+  border: none;
+  outline: none;
+  resize: none;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #fefefe,
+    #fefefe 24px,
+    #f0f0f0 25px
+  );
+  white-space: pre-wrap;
+  text-align: left;
+  padding-left: 40px;
+  overflow-y: scroll;
+}
+
+.page li{
+    font-size: 16px;
+}
+
+.page h1{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 40px;
+    text-decoration: underline wavy #312d2a;
+    text-underline-offset: 6px;
+}
+
+.notebook-experience{
+  font-size: 16px;
+}
+
+.notebook-container {
+    display: flex;
+    width: 100vw; 
+    height: 80vh; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fffde7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+    box-sizing: border-box; 
+    font-family: 'Gloria Hallelujah', cursive;
+    flex-direction: row; 
+    gap:10px
+}
+
+.page {
+    flex: 1;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    outline: none;
+    resize: none;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        #fefefe,
+        #fefefe 24px,
+        #f0f0f0 25px
+    );
+    text-align: left;
+    padding-left: 40px;
+    overflow-y: scroll;      
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #fffde7;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    white-space: pre-wrap;
+}
+
+.spine {
+  width: 10px;
+  background-color: #c89f7f;
+  
+}
+
+@media (max-width: 768px) {
+  .notebook-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .spine {
+    display: none;
+  }
+
+  .page + .page {
+    margin-top: 20px;
+  }
+
+  .page + .spine,
+  .spine + .page {
+    margin-left: 0;
+  }
+}
+
+.empty-experience {
+  height: 100%;
+  width: 100%;
+}
+
+.empty-experience p{
+    padding-top: 30%;
+    padding-left: 10%;
+}
+
+.doodle{
+    width: 100%;
+  height: auto;
+  display: block;
+}
+.doodle-img {
+    padding-top: 10%;
+    width: 50%;        
+    height: auto;           
+    display: block;         
+    margin: 0 auto;   
+}

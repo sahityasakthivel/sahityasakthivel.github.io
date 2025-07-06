@@ -1,0 +1,60 @@
+.intro-banner-container {
+    text-align: center;
+    font-family: 'Playfair Display', 'Merriweather', serif, cursive;
+    font-style:oblique;
+    font-size: clamp(22px, 4vw, 50px);
+    padding: 20px;
+    color: black;
+    height: '100vh';
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+
+  }
+
+.intro-banner-left-panel {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0px;
+  gap: 20px;  
+  box-sizing: border-box;
+}
+
+.intro-banner-left-panel-header-name{
+  padding: 20px;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.intro-banner-left-panel-header-role{
+  flex: 1;
+  overflow: hidden;  
+  white-space: pre-wrap;
+  font-size: clamp(10px, 2vw, 32px);
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.intro-banner-right-panel {
+  flex: 1;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.intro-banner-right-panel img{
+  width: 30vw;
+  max-width: 250px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+.layout-container {
+  display: flex;
+  width: 80%;
+  gap: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 1%;
+}
+
+.corkboard-outline{
+  border-radius: 8px;
+  background-color: 	#c89f7f;
+  width: 100%;
+}
+
+.corkboard-outline h3 {
+    gap: 0px;
+    padding: 0px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 24x;
+    text-decoration: underline wavy #a06040;
+    text-underline-offset: 6px;
+    color: #4b3d2d; 
+    margin-bottom: 2px;
+}
+
+.notepad-panel{
+  width: 50%;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex: 1 1 50%;
+  gap: 10px;
+  position: relative;
+
+}
+
+.corkboard {
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.icon{
+    color: black;
+    font-size:x-large
+}
+
+.corkboard > .post-it {
+  flex: 1 1 calc(33.333% - 1rem); 
+}
+
+@media (max-width: 768px) {
+  .corkboard {
+    flex-direction: column;
+    align-items: center;
+  }
+  .layout-container {
+    flex-direction: column;
+  }
+
+  .post-it,
+  .notepad-panel {
+    width: 80%;
+    margin-bottom: 2%;
+  }
+}
+
+.postit-thumbtack-notepad {
+  position: absolute;
+  top: 10px; 
+  left: 25%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  z-index: 10; 
+}
