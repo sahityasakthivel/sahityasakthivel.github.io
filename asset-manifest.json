@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ac09428.css",
+    "main.css": "/static/css/main.650b7bb9.css",
     "main.js": "/static/js/main.45f91616.js",
     "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
     "static/media/website.png": "/static/media/website.772c3b1bc80844c98b2b.png",
@@ -15,12 +15,12 @@
     "static/media/kcl.png": "/static/media/kcl.8c7f89ce4ccc02da4c57.png",
     "static/media/Bank_of_America_Corporation_Logo.png": "/static/media/Bank_of_America_Corporation_Logo.7133a149e05f99ca4beb.png",
     "index.html": "/index.html",
-    "main.9ac09428.css.map": "/static/css/main.9ac09428.css.map",
+    "main.650b7bb9.css.map": "/static/css/main.650b7bb9.css.map",
     "main.45f91616.js.map": "/static/js/main.45f91616.js.map",
     "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ac09428.css",
+    "static/css/main.650b7bb9.css",
     "static/js/main.45f91616.js"
   ]
 }
