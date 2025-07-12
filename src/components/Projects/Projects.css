@@ -7,8 +7,11 @@
   padding: 40px;
   justify-items: center;
   height: 100%;
-  width: 100%;
+  width: 80%;
   border-radius: 8px;
+  margin: 20px auto; 
+  box-sizing: border-box;
+
 }
 
 .portfolio-wall {
@@ -138,11 +141,7 @@ font-family: 'Gloria Hallelujah', cursive;
 
 }
 
-@media (max-width: 600px) {
-  .buttons-logo {
-    display: none;
-  }
-}
+
 .buttons-logo{
       /* margin: 10px 10px 0; */
     margin-top: 10%;
@@ -236,4 +235,20 @@ font-family: 'Gloria Hallelujah', cursive;
 .project-card.tape-purple::before,
 .project-card.tape-purple::after {
   background-color: rgba(220, 200, 255, 0.65); 
+}
+
+
+@media (max-width: 768px) {
+  .project-card {
+    padding: 25px 20px 50px 20px; 
+    width: 90%;                  
+  }
+
+  .project-card::before,
+  .project-card::after {
+    width: 50px;
+    height: 12px;
+    top: -8px;              
+  }
+
 }

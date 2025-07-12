@@ -105,27 +105,25 @@
 .about-me {
   display: flex;
   justify-content: center;  
-  align-items: center;      
+  align-items: center;   
 }
 
 
 .experience-layout-container {
   display: flex;
-  width: 80%;
+  /* width: 80%; */
   margin: 30px auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
   padding-bottom: 5%;
 }
 
 .project-layout-container {
   display: flex;
-  width: 80%;
   margin: 30px auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 5%;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
 }
 
 
@@ -140,6 +138,18 @@ body {
   overflow-y: scroll;
   height: 100vh; 
 }
+
+/* @media (max-width: 768px) {
+  .experience-layout-container, .project-layout-container   {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%;
+    flex-direction: column;
+    width: 95%;
+    padding: 20px;
+    
+  }
+} */
 
 
 

@@ -1,6 +1,5 @@
 .intro-banner-container {
     text-align: center;
-    font-family: 'Playfair Display', 'Merriweather', serif, cursive;
     font-style:oblique;
     font-size: clamp(22px, 4vw, 50px);
     padding: 20px;
@@ -12,6 +11,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px; 
+      font-family: 'Patrick Hand', cursive;
+
 
   }
 

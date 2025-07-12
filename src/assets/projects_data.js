@@ -101,7 +101,7 @@ const Projects_Data = [
     {
         s_no:"5",
         s_name:"Portfolio Website",
-        s_desc:"A comprehensive portfolio showcasing my projects, professional experiences, and technical skills with detailed descriptions, clear context, and demonstrated impact. It highlights the technologies used and key outcomes, reflecting my expertise and ongoing growth.",
+        s_desc:"A comprehensive portfolio showcasing my projects, professional experiences, and technical skills with detailed descriptions. It highlights the technologies used and key outcomes, reflecting my expertise and ongoing growth.",
         s_img: s12, 
         s_lang: ["React"],
         s_readmore: [],

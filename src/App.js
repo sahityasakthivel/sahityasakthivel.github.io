@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import AboutMe from './components/AboutMe/AboutMe';
 import IntroBanner from './components/IntroBanner/IntroBanner';
 import OpenNotebook from './components/NoteBook/NoteBook';
-
+import Footer from './components/Footer/Footer';
 function App() {
   const aboutRef = useRef(null);
   const exeperienceRef = useRef(null);
@@ -48,6 +48,7 @@ function App() {
         <Projects/>
         </div>
       </div>
+      <Footer/>
     </div>
     
   );

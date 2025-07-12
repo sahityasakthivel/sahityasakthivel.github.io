@@ -93,18 +93,23 @@
 
 .notebook-container {
     display: flex;
-    width: 100vw; 
-    height: 80vh; 
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #fffde7;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-top: 20px;
-    box-sizing: border-box; 
-    font-family: 'Gloria Hallelujah', cursive;
-    flex-direction: row; 
-    gap:10px
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+
+  width: 80%;
+  height: 80vh;
+  margin: 20px auto; 
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fffde7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: 'Gloria Hallelujah', cursive;
+
+
 }
 
 .page {
