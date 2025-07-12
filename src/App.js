@@ -1,16 +1,20 @@
 import './App.css';
 import { useRef } from 'react';
+import Projects from './components/Projects/Projects';
 import Navbar from './components/Navbar/Navbar';
 import AboutMe from './components/AboutMe/AboutMe';
 import IntroBanner from './components/IntroBanner/IntroBanner';
 import OpenNotebook from './components/NoteBook/NoteBook';
+
 function App() {
   const aboutRef = useRef(null);
   const exeperienceRef = useRef(null);
+  const projectRef = useRef(null);
   return (
     <div className="App">
       <Navbar scrollToSection={(section) => {
         const sectionMap = {
+        project: projectRef,
         about: aboutRef,
         experience: exeperienceRef,
         };
@@ -37,6 +41,11 @@ function App() {
       <div ref={exeperienceRef}>
         <div className="experience-layout-container">
         <OpenNotebook/>
+        </div>
+      </div>
+      <div ref={projectRef}>
+        <div className="project-layout-container">
+        <Projects/>
         </div>
       </div>
     </div>

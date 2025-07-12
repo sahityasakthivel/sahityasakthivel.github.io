@@ -119,6 +119,15 @@
   padding-bottom: 5%;
 }
 
+.project-layout-container {
+  display: flex;
+  width: 80%;
+  margin: 30px auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5%;
+}
+
 
 html, body {
   height: 100%;

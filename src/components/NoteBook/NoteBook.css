@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 
 .experience-bullet-points{
     display: flex;
@@ -12,6 +14,18 @@
     width: 45%;
     height: 45%;
     align-items: center;
+}
+
+.experience-bullet-points-overall{
+    margin-top: -10px; 
+
+}
+
+
+.experience-bullet-points-overall li{
+  line-height: 25px;
+    font-size: 18px;
+
 }
 
 .page {
@@ -35,9 +49,7 @@
   overflow-y: scroll;
 }
 
-.page li{
-    font-size: 16px;
-}
+
 
 .page h1{
     font-size: 20px;
@@ -45,10 +57,38 @@
     padding-right: 40px;
     text-decoration: underline wavy #312d2a;
     text-underline-offset: 6px;
+    margin-bottom: 7%;
+  font-family: 'Gloria Hallelujah', cursive;
+
 }
 
 .notebook-experience{
   font-size: 16px;
+  padding: 0px;
+
+}
+
+.notebook-experience p{
+  padding: 0px;
+  margin: 0;
+  text-decoration: #312d2a;
+}
+
+.text-highlight {
+  background-color: #ffe6f0;
+  padding: 0 4px;
+  border-radius: 12px;
+}
+
+.notebook-experience h1{
+  font-family: 'Patrick Hand', cursive;
+  text-decoration: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 .notebook-container {
@@ -70,7 +110,8 @@
 .page {
     flex: 1;
     color: black;
-    font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Patrick Hand', cursive;
+
     font-size: 16px;
     line-height: 1.5;
     border: none;
@@ -92,6 +133,12 @@
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     white-space: pre-wrap;
+}
+
+
+.page p {
+    font-family: 'Gloria Hallelujah', cursive;
+
 }
 
 .spine {
@@ -127,7 +174,6 @@
 
 .empty-experience p{
     padding-top: 30%;
-    padding-left: 10%;
 }
 
 .doodle{
