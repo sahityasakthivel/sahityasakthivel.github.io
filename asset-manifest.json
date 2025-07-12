@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ac09428.css",
+    "main.js": "/static/js/main.45f91616.js",
+    "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
+    "static/media/website.png": "/static/media/website.772c3b1bc80844c98b2b.png",
+    "static/media/profile.JPG": "/static/media/profile.4777b1ff6651bd2ac2f4.JPG",
+    "static/media/simulation.png": "/static/media/simulation.15020751bcbe7e3b65ab.png",
+    "static/media/tfl.png": "/static/media/tfl.fea6eec53fc3ee43ee1d.png",
+    "static/media/fun.png": "/static/media/fun.9e950dfcac52f2df914e.png",
+    "static/media/personalised_feedback_framework.png": "/static/media/personalised_feedback_framework.66658469d15e029422d2.png",
+    "static/media/smiley.png": "/static/media/smiley.8d32d9c007daec3bfa59.png",
+    "static/media/CV.pdf": "/static/media/CV.4ebd36899bcd320835ca.pdf",
+    "static/media/gfc.png": "/static/media/gfc.40ad7fa88f20c32877a4.png",
+    "static/media/kcl.png": "/static/media/kcl.8c7f89ce4ccc02da4c57.png",
+    "static/media/Bank_of_America_Corporation_Logo.png": "/static/media/Bank_of_America_Corporation_Logo.7133a149e05f99ca4beb.png",
+    "index.html": "/index.html",
+    "main.9ac09428.css.map": "/static/css/main.9ac09428.css.map",
+    "main.45f91616.js.map": "/static/js/main.45f91616.js.map",
+    "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ac09428.css",
+    "static/js/main.45f91616.js"
+  ]
+}
