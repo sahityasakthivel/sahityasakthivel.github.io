@@ -52,13 +52,12 @@
   position: relative; 
   z-index: 1;
   background-color: white;
-  width: 300px;
-  height: auto;
+  width: 250px;
+  height: 80%;
   padding: 20px 15px 40px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .project-card::before,
@@ -90,7 +89,7 @@
   transform: scale(1.03);
 }
 .project-card img {
-  width: 90%;       
+  width: 100%;       
   height: auto;     
   max-height: 150px; 
   object-fit: cover; 

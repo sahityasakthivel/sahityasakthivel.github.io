@@ -35,23 +35,27 @@ const Projects = () => {
           >
           <div className="card-inner">
             <div className="card-front">
-                <img src={experience.s_img}/>
+                
                 <p>{experience.s_name}</p>
+                
+                <img src={experience.s_img}/>
                 <h5>{experience.s_desc}</h5>
                 <div className='buttons-logo'>
-                  {experience.s_lang_icons.map((val, i) => (
+                  {/* {experience.s_lang_icons.map((val, i) => (
                     <img src={val} alt="" key={i} />
-                  ))}
+                  ))} */}
                 </div>
             </div>
 
             <div className="card-back">
-            <p> Langauges / Frameworks:</p>
-            {experience.s_lang.map(val => (  
-                <li>{val}</li>)) }
                 <p>Details:</p>
                 {experience.s_functionality.map(val => (  
                     <li className='functionality'>{val}</li>)) }
+                    <div className='buttons-logo'>
+                    {experience.s_lang_icons.map((val, i) => (
+                    <img src={val} alt="" key={i} />
+                  ))}s
+                  </div>
             </div>
             </div>
           </div>

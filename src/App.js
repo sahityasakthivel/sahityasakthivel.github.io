@@ -13,24 +13,18 @@ function App() {
   return (
     <div className="App">
       <Navbar scrollToSection={(section) => {
-        const sectionMap = {
-        project: projectRef,
-        about: aboutRef,
-        experience: exeperienceRef,
-        };
+  const sectionMap = {
+    project: projectRef,
+    about: aboutRef,
+    experience: exeperienceRef,
+  };
 
-        const targetRef = sectionMap[section];
-        const offset = 0; 
+  const targetRef = sectionMap[section];
 
-        if (targetRef?.current) {
-          const elementPosition = targetRef.current.getBoundingClientRect().top + window.pageYOffset;
-          const offsetPosition = elementPosition - offset;
-
-          targetRef.current.scrollIntoView({
-            behavior: 'smooth',
-          });
-        }
-      }}/>
+  if (targetRef?.current) {
+    targetRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+}} />
 
       <div ref={aboutRef}>
         <IntroBanner/>
