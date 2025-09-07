@@ -26,6 +26,8 @@
     text-underline-offset: 6px;
     color: #4b3d2d; 
     margin-bottom: 2px;
+    font-size: clamp(24px, 4vw, 20px);
+    
 }
 
 .notepad-panel{

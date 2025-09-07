@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     height: 45%;
 }
 
@@ -22,6 +22,8 @@
 .experience-bullet-points-overall li{
   line-height: 25px;
     font-size: 18px;
+    padding: 2%;
+    list-style-type: none;
 
 }
 
@@ -32,6 +34,15 @@
     text-align: center;
     text-decoration: underline wavy #312d2a;
     text-underline-offset: 6px;
+    margin-bottom: 7%;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+
+.page h3{
+  font-size: 14px;
+    text-align: center;
     margin-bottom: 7%;
   font-family: 'Gloria Hallelujah', cursive;
 
@@ -86,7 +97,7 @@
   overflow: hidden;
   box-sizing: border-box;
   font-family: 'Gloria Hallelujah', cursive;
-
+  
 
 }
 
@@ -172,4 +183,44 @@
     height: auto;           
     display: block;         
     margin: 0 auto;   
+}
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 14px;
+  /* border: 2px solid black; */
+  background: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+  color: black;
+  transition: transform 0.1s ease;
+}
+.back-icon {
+  font-size: 26px;  /* adjust size */
+  line-height: 1;
+}
+
+.back-button:hover {
+  /* background-color: #555; */
+}
+
+@media (max-width: 768px) {
+  .notebook-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* let content expand naturally */
+  }
+
+  .page {
+    min-width: 100%;
+    height: auto;
+  }
+
+  .spine {
+    display: none;
+  }
 }

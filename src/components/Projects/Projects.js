@@ -10,12 +10,12 @@ const Projects = () => {
   };
 
   const tapeColors = [
-  'tape-blue',
   'tape-pink',
   'tape-mint',
   'tape-yellow',
   'tape-beige',
-  'tape-purple'
+  'tape-purple',
+  'tape-blue'
 ];
 
   return (
